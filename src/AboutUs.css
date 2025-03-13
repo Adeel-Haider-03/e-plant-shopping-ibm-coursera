@@ -1,0 +1,73 @@
+.about-us-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  color: white;
+}
+
+.about-us-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us-description {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-us-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.plant_logo_right {
+  text-align: right;
+}
+
+.plant_logo_left {
+  text-align: left;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .about-us-container {
+    width: 90%;
+  }
+
+  .about-us-heading {
+    font-size: 28px;
+  }
+
+  .about-us-description {
+    font-size: 16px;
+  }
+
+  .about-us-content {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-us-container {
+    width: 95%;
+  }
+
+  .about-us-heading {
+    font-size: 24px;
+  }
+
+  .about-us-description {
+    font-size: 14px;
+  }
+
+  .about-us-content {
+    font-size: 14px;
+  }
+}

@@ -1,1 +1,1 @@
-# e-plant-shopping-ibm-coursera
+# coding-project-template
